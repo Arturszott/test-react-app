@@ -1,0 +1,6 @@
+--slow 5
+--reporter dot
+--recursive
+--require babel-polyfill
+--require ./test/setup.js
+--compilers jsx:babel-core/register
